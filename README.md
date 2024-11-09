@@ -4,6 +4,6 @@ Implemenation based on (https://velusqrt.isogeny.org/)
 
 ## Build instructions
 To compile the test and benchmarking programs, modify 'BITS?=' in the Makefile to '1024' or '2048', then run
-``sh
+```
 make
 ```
