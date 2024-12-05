@@ -15,6 +15,13 @@
 #define Bob_prime_num 63
 #define OALICE_BITS 500
 #define OBOB_BITS 492
+#elif BITS == 4096
+#define primes_num 417
+#define primes_max_exponent 1
+#define Alice_prime_num 210
+#define Bob_prime_num 208
+#define OALICE_BITS 2052
+#define OBOB_BITS 2044
 #else
 #error BITS must be 2048 or 1024
 #endif
